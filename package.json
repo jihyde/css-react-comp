@@ -1,13 +1,13 @@
 {
   "name": "css-react-comp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "React component library using Rollup, TypeScript, Sass and Storybook",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -30,8 +30,8 @@
     "Sass",
     "Storybook"
   ],
-  "author": "Harvey Delaney",
-  "license": "MIT",
+  "author": "Jonah Hyde",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/jihyde/css-react-comp/issues"
   },
