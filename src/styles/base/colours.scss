@@ -1,0 +1,39 @@
+$primary-background: rgb(255, 255, 255);
+
+$primary-colour: #304b9a;
+$secondary-colour: #25d4b7;
+$accent-colour: #e94979;
+$purple: #8d4a8f;
+$primary-colour-light: #c4f3ec;
+
+$grey-dark: #2d2d2d;
+$grey-medium: #bfbfbf;
+$grey-light: #dbdbdb;
+$grey-ultralight: #f3f3f3;
+
+$blue-ultralight: #f0f2f8;
+$blue-light: #dbe0ee;
+$blue-medium: #bec7e0;
+
+$lighter-background-colour: $grey-ultralight;
+$darker-background-colour: $blue-light;
+$border-colour: $grey-light;
+
+$paragraph-colour: $primary-colour;
+$main-heading-colour: $primary-colour;
+$sub-heading-colour: $main-heading-colour;
+
+$warning-colour: #e94979;
+$warning-text-colour: white;
+
+$info-box-background: rgba($secondary-colour, 0.2);
+$info-box-border: $secondary-colour;
+$info-box-text: $primary-colour;
+
+$form-error-background: rgba(red, 0.1);
+$form-error-border: rgba(red, 0.6);
+
+$content-background: $primary-background;
+
+$warning-colour: #e94979;
+$warning-text-colour: white;
