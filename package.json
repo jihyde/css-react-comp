@@ -1,5 +1,5 @@
 {
-  "name": "css-react-comp",
+  "name": "@jihyde/css-react-comp",
   "version": "1.0.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
