@@ -1,3 +1,3 @@
 export interface TestComponent2Props {
-  theme: "primary" | "secondary";
+    theme: "primary" | "secondary";
 }
