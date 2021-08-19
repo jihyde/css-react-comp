@@ -18,17 +18,17 @@ describe("Test Component2", () => {
   it("should have primary className with default props", () => {
     const { getByTestId } = renderComponent();
 
-    const testComponent2 = getByTestId("test-component-2");
+    const testComponent2 = getByTestId("test-component2");
 
-    expect(testComponent2).toHaveClass("test-component-2-primary");
+    expect(testComponent2).toHaveClass("test-component2-primary");
   });
 
   it("should have secondary className with theme set as secondary", () => {
     props.theme = "secondary";
     const { getByTestId } = renderComponent();
 
-    const testComponent2 = getByTestId("test-component-2");
+    const testComponent2 = getByTestId("test-component2");
 
-    expect(testComponent2).toHaveClass("test-component-2-secondary");
+    expect(testComponent2).toHaveClass("test-component2-secondary");
   });
 });
