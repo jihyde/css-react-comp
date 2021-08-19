@@ -1,0 +1,144 @@
+@import "colours";
+@import "typography";
+@import "responsive";
+
+.button {
+  background-color: $primary-colour;
+  border: 0px;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  cursor: pointer;
+  white-space: nowrap;
+
+  @media (max-width: 768px) {
+    padding: 0.5rem 0.5rem;
+    i {
+      display: none;
+    }
+  }
+
+  .fas {
+    margin-right: 10px;
+    width: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+.accent-button {
+  background-color: $accent-colour;
+}
+
+.warning {
+  background-color: $warning-colour !important;
+  color: $warning-text-colour !important;
+}
+
+.fixed-top-right {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fixed-top-right {
+    top: 5px;
+    right: 5px;
+  }
+}
+
+.table-button {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  margin: 0;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: $primary-colour;
+  .fas {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+button.large,
+.button.large {
+  padding: 0.4em 1.25em !important;
+
+  a,
+  a:active,
+  a:visited {
+    color: $grey-medium;
+    text-decoration: none;
+  }
+}
+
+#nav button,
+#nav .button {
+  padding: 0.25rem 2rem;
+}
+
+button:hover,
+.button:hover {
+  -webkit-filter: brightness(90%);
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+button.secondary,
+.button.secondary {
+  background-color: $secondary-colour;
+  //color: $grey-medium;
+}
+
+button.secondary:hover,
+.button.secondary:hover {
+  -webkit-filter: brightness(100%);
+  background-color: $secondary-colour;
+}
+
+button.white,
+.button.white {
+  background-color: #ffffff;
+  color: $primary-colour;
+}
+
+button.white:hover,
+.button.white:hover {
+  -webkit-filter: brightness(90%);
+}
+
+button.grey,
+.button.grey {
+  background-color: $grey-light;
+  color: $primary-background;
+}
+
+button.white:hover,
+.button.white:hover {
+  -webkit-filter: brightness(90%);
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+button:disabled:hover {
+  -webkit-filter: brightness(100%);
+}
+
+select.dropdown-select {
+  background-color: $primary-colour;
+  color: $grey-medium;
+  border: none;
+  border-radius: 4px;
+  height: auto !important;
+  padding: 0.5em 0.75em !important;
+  font-weight: 300 !important;
+  font-family: $sans-serif-font !important;
+  cursor: pointer;
+  -webkit-filter: brightness(100%);
+}
