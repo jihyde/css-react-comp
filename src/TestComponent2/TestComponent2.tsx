@@ -9,8 +9,8 @@ const TestComponent2: React.FC<TestComponent2Props> = ({ theme }) => (
     data-testid="test-component2"
     className={`test-component2 test-component2-${theme}`}
   >
-    <h1 className="heading">Test component</h1>
-    <h2>Made by Jonah</h2>
+    <h1 className="heading">I'm the test component</h1>
+    <h2>Made with love by Harvey</h2>
   </div>
 );
 
